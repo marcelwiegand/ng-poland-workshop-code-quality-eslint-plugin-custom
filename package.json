@@ -1,6 +1,6 @@
 {
   "name": "@eslint-plugin-custom/source",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "license": "MIT",
   "scripts": {
     "test": "npx vitest run",
