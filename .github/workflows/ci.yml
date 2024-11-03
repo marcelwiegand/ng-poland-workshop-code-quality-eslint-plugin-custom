@@ -40,7 +40,7 @@ jobs:
       - run: npx nx affected -t lint test build
 
       - name: Create Coverage
-        run: npx vitest run --coverage coverage.reporter=lcov
+        run: npx vitest run --coverage --coverage.reporter=lcov
 
       - name: Trigger SonarQube Analysis
         uses: SonarSource/sonarcloud-github-action@master
